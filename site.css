@@ -1,9 +1,9 @@
 body {
   padding: 0;
   margin: 0;
-  background: #F7F7F7;
+  background: rgb(230, 236, 241);
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  background: -moz-linear-gradient(45deg, rgb(199, 230, 243) 0%, #EAE0D5 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
   /* Chrome10-25,Safari5.1-6 */
@@ -12,9 +12,10 @@ body {
 
 /** Header styles **/
 .header {
-  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  background-image: url(https://cdn.radiofrance.fr/s3/cruiser-production/2017/10/624cecdf-0006-4c33-b043-8b690b0885b9/640_058_573194.jpg);
   height: 400px;
   background-position: center center;
+  opacity: 0.6;
 }
 
 .roasting {
@@ -39,7 +40,7 @@ body {
 .spectrum div {
   font: inherit;
   padding: 0 20px;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   overflow: auto;
   opacity: 0.9;
 }
@@ -51,28 +52,28 @@ body {
 
 /* Roast types */
 .green {
-  background-color: DarkSeaGreen;
+  background-color: rgb(158, 178, 216);
 }
 
 .light {
-  background-color: Sienna;
+  background-color: rgb(135, 163, 147);
 }
 
 .city {
-  background-color: SaddleBrown;
+  background-color: rgb(168, 175, 143);
 }
 
 .vienna {
-  background-color: Brown;
+  background-color: rgb(156, 146, 50);
 }
 
 .italian {
-  background-color: Black;
+  background-color: rgb(131, 163, 179);
 }
 
 /* Typography */
 h1 {
-  color: #41292C;
+  color: rgb(30, 80, 28);
   font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
