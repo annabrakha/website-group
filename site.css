@@ -12,7 +12,7 @@ body {
 
 /** Header styles **/
 .header {
-  background-image: url(https://cdn.radiofrance.fr/s3/cruiser-production/2017/10/624cecdf-0006-4c33-b043-8b690b0885b9/640_058_573194.jpg);
+  background-image: url(https://i.ytimg.com/vi/vZIbpk-vwy0/maxresdefault.jpg);
   height: 400px;
   background-position: center center;
   opacity: 0.6;
@@ -130,7 +130,7 @@ li {
 
 p {
   color: #444444;
-  line-height: 32px;
+  line-height: 50px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -146,3 +146,48 @@ a {
   text-decoration: none;
   letter-spacing: 2px;
 }
+
+.media {
+  height:800px;
+  width:800px;
+  align-items: baseline;
+}
+
+#onglets
+{
+    font : bold 25px Raleway, sans-serif;
+    list-style-type : none;
+    padding-bottom : 10px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    border-bottom : 1px solid #9EA0A1;
+    margin-left : 0;
+}
+
+#onglets li
+{
+    float : left;
+    height : 5px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    width: 120px;
+    background-color: rgb(111, 161, 82);
+    margin : 1px 1px 0 2px !important;  /* Pour les navigateurs autre que IE */
+    margin : 1px 2px 0 2px;  /* Pour IE  */
+    border : 1px solid #9EA0A1;
+}
+
+#onglets li.active
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+#onglets a
+{
+    display : block;
+    color : #666;
+    text-decoration : none;
+    padding : 4px;
+}
+
+#onglets a:hover
+{
+    background : #fff;
+}
+
