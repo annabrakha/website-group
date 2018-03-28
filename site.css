@@ -12,7 +12,7 @@ body {
 
 /** Header styles **/
 .header {
-  background-image: url(https://i.ytimg.com/vi/vZIbpk-vwy0/maxresdefault.jpg);
+  background-image: url(https://cdn.radiofrance.fr/s3/cruiser-production/2017/10/624cecdf-0006-4c33-b043-8b690b0885b9/640_058_573194.jpg);
   height: 400px;
   background-position: center center;
   opacity: 0.6;
@@ -124,13 +124,14 @@ ul {
 li {
   border-bottom: 1px solid #E4BB97;
   list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 0px;
+  padding-bottom: 20px;
 }
 
 p {
   color: #444444;
-  line-height: 50px;
+  line-height: 32px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -147,47 +148,24 @@ a {
   letter-spacing: 2px;
 }
 
-.media {
-  height:800px;
-  width:800px;
-  align-items: baseline;
+#collec {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#onglets
-{
-    font : bold 25px Raleway, sans-serif;
-    list-style-type : none;
-    padding-bottom : 10px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
-    border-bottom : 1px solid #9EA0A1;
-    margin-left : 0;
+.btn {
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+  margin: 0 auto ;
+  color: rgb(183, 209, 194);
+  padding: 12px;
+  font-size: 15px;
+  position: relative;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+  0 -1px 0 rgba( 255, 255, 255, 0.4);
+  background: linear-gradient( rgb(136, 219, 119), rgb(39, 92, 29));
 }
-
-#onglets li
-{
-    float : left;
-    height : 5px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
-    width: 120px;
-    background-color: rgb(111, 161, 82);
-    margin : 1px 1px 0 2px !important;  /* Pour les navigateurs autre que IE */
-    margin : 1px 2px 0 2px;  /* Pour IE  */
-    border : 1px solid #9EA0A1;
-}
-
-#onglets li.active
-{
-    border-bottom: 1px solid #fff;
-    background-color: #fff;
-}
-#onglets a
-{
-    display : block;
-    color : #666;
-    text-decoration : none;
-    padding : 4px;
-}
-
-#onglets a:hover
-{
-    background : #fff;
-}
-
