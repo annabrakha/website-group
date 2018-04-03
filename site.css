@@ -16,6 +16,7 @@ body {
   height: 400px;
   background-position: center center;
   opacity: 0.6;
+  background-repeat: no-repeat;
 }
 
 .roasting {
@@ -48,6 +49,9 @@ body {
 .spectrum p {
   color: #FFFFFF;
   text-align: left;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 /* Roast types */
@@ -64,7 +68,7 @@ body {
 }
 
 .vienna {
-  background-color: rgb(156, 146, 50);
+  background-color: rgb(184, 170, 47);
 }
 
 .italian {
@@ -84,9 +88,9 @@ h1 {
 }
 
 h2 {
-  color: #E4BB97;
+  color: rgb(128, 112, 61);
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 500;
   text-align: left;
   text-transform: uppercase;
@@ -114,6 +118,13 @@ h5 {
   font-weight: 300;
 }
 
+h6 {
+  font-family : "Arial", sans-serif;
+  font-size : 16px;
+  text-transform: uppercase;
+  color: rgb(11, 11, 63);
+}
+
 /* Page elements */
 ul {
   margin: 0 auto;
@@ -121,19 +132,44 @@ ul {
   width: 75%;
 }
 
+
 li {
   border-bottom: 1px solid #E4BB97;
   list-style: none;
+  font-family:"Raleway",sans-serif;
   margin: 100px 0px;
   padding-bottom: 60px;
+}
+
+#fac {
+  margin: 20px 0px;
+  padding-bottom: 10px;
+  font-family: "Raleway",sans-serif;
+  color: rgb(255, 255, 255)
+}
+
+.som {
+  margin: 20px 0px;
+  padding-bottom: 10px;
+}
+
+#collec {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
   color: #444444;
   line-height: 50px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 20px;
   font-weight: 100;
+}
+
+.recette p {
+  font-family: "Raleway";
 }
 
 a {
@@ -148,29 +184,82 @@ a {
 }
 
 .media {
-  height:800px;
+  height:500px;
   width:800px;
   align-items: baseline;
+}
+
+.recette{
+  float: left;
+  font-family: 'Raleway';
+  text-align: center;
+  margin-top: 1px;
+}
+
+.recettedeux {
+  float: right;
+  font-family: 'Raleway';
+  text-align: center;
+  margin-top: 1px;
 }
 
 #onglets
 {
     font : bold 25px Raleway, sans-serif;
     list-style-type : none;
-    padding-bottom : 10px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
-    border-bottom : 1px solid #9EA0A1;
-    margin-left : 0;
+    padding-bottom : 5px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    margin-left : 4;
+    position: relative;
 }
+
+.voirUnCanard
+{
+    font : bold 19px Raleway, sans-serif;
+    list-style-type : none;
+    padding-bottom : 5px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    margin-left : 0%;
+    margin-top: 10px;
+    position: absolute;
+    
+    
+      width:100px;
+      height:100px;
+      background:#cc0000;
+      border-radius:80%;
+      border:none;
+      color:#fff;
+
+      animation:pulsation_bouton .8s ease-out;
+
+}
+
+@keyframes pulsation_bouton {
+  from{
+  box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 rgb(255, 0, 0)
+  }
+
+  to{
+  box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 13px hsla(0,0%,100%,0)
+  }
+  }
+
+.voirUnCanard:hover {
+  background:#ffeded;
+  color:rgb(0, 0, 0);
+}
+  
 
 #onglets li
 {
     float : left;
-    height : 5px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
-    width: 120px;
+    height : 25px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    width: 105px;
+    position: sticky;
     background-color: rgb(111, 161, 82);
     margin : 1px 1px 0 2px !important;  /* Pour les navigateurs autre que IE */
     margin : 1px 2px 0 2px;  /* Pour IE  */
     border : 1px solid #9EA0A1;
+    display: inline-block;
 }
 
 #onglets li.active
@@ -180,14 +269,92 @@ a {
 }
 #onglets a
 {
-    display : block;
+    display : inline-block;
     color : #666;
     text-decoration : none;
-    padding : 4px;
+    padding : 6px;
 }
 
 #onglets a:hover
 {
     background : #fff;
+    border-bottom: 1px; 
+  
 }
 
+#parapluie {
+  align-items: unset
+}
+
+.badge-pill {
+  color: #214E34;
+}
+
+.mr-3 {
+  width: 400px;
+  border-color: #214E34;
+}
+
+.txt {
+  font-family: 'Raleway';
+}
+
+.column-left {
+  column-width: 150px;
+  column-rule-style: solid;
+
+}
+
+.column-right {
+  column-width: 200px;
+  column-rule-style: solid;
+
+}
+
+.column-lefte {
+  column-width: 400px;
+}
+
+.column-righte {
+  column-width: 200px;
+  column-rule-style: solid;
+}
+
+.tshirt {
+  display: inline;
+  float: left;
+}
+
+.bouee {
+  display: inline;
+  float: left;
+  align-items: baseline;
+
+}
+
+.form {
+  display: center;
+  display: inline;
+}
+
+#fname {
+  display: center;
+  margin-left: 520px;
+}
+
+#subject {
+  display: center;
+  margin-left: 310px;
+}
+
+.mot {
+  margin-left: 600px;
+}
+
+.parti {
+  margin-left: 660px;
+}
+
+.lol {
+  width: 150px;
+}
