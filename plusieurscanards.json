@@ -1,0 +1,19 @@
+{  
+    "canard" : [    
+          
+            {
+            "image" : "1.jpg",      
+            "nom" : "Couple de canards",      
+            "commentaires" : "Sont-ils pas mignons ces deux là ?"
+              },
+                       
+             {   
+            "image" : "2.jpg",      
+            "nom" : "Canard Altier",      
+            "commentaires" : "Ce canard a une classe internationale !"
+             }  
+            
+            ]
+
+  }
+  
