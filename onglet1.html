@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Un jour, un canard</title>
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="site.css">
+  <link rel="shortcut icon" href="FAVICONARD.ico">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Canard Calé</h1>
+  </div>
+  <div class="roasting">
+      <div id="lieu"><h3>"Si le canard crie, c'est signe de pluie."</h3></div>
+        <p>Pour tous les passionnés qui aiment à voir nos amis les palmipèdes dans tous leurs états.</p>
+      <br>
+    
+    
+    </br></br>
+          <div class="spectrum">
+    
+    
+            
+                <div id="menu">
+                    <ul id="onglets">
+                    <li><a href="site.html#lieu">Accueil</a></li>
+                      <li class="active"><a href="onglet1.html#lieu"> Un jour, un canard </a></li>
+                      <li><a href="onglet2.html#lieu"> Le canard, ce serial lover </a></li>
+                      <li><a href="onglet3.html#lieu"> Recettes </a></li>
+                      <li><a href="onglet4.html#lieu"> Une journée dans la vie d'un canard </a></li>
+                      <li><a href="onglet5.html#lieu"> Boutique de produits dérivés </a></li>
+                      <li><a href="contact.html#lieu">Contact</a></li>
+                    </ul>
+                  </div>
+    
+                </br></br></br>
+                  
+
+  <div class="spectrum">
+        <div class="green">
+<h4>Un jour, un canard</h4>
+<h5>Une espèce de canard décryptée chaque jour!</h5>
+
+<p>Appuyez sur le bouton ci-dessous pour découvrir votre canard du jour!</p>
+
+<button onclick="javascript:location.reload();" class= voirUnCanard >Voir un nouveau Canard !</button>
+
+    <section>
+    </section>
+
+<script type="text/javascript" language="javascript">
+    var section = document.querySelector('section');  
+
+  
+// A L'ATTENTION DE QUI LIRA CES LIGNES UN JOUR : 
+// Après 1 milliard de tentatives infructueuses pour récupérer et incorporer un fichier json dans ce script (utilisation de "var request = new XMLHttpRequest()", simulation de mise en ligne de la base json avec node.js, tentative de lier à Github...), on se résout à créer et surcharger cette excellente variable genredecanard. Dommage !
+// Donc, ci-dessous, nos gros sabots, et l'échec du chargement d'un json :
+  
+    var genreDeCanards = {  
+canard : [    
+      
+         {   
+        image : 'images/0.jpg',      
+        nom : "Canard Insipide",      
+        commentaires : "Un palmipède aussi banal qu'attachant."
+         },  
+         
+         {
+        image : 'images/1.jpg',      
+        nom : "Couple de canards",      
+        commentaires : "Sont-ils pas mignons ces deux là ?"
+          },
+                   
+         {   
+        image : 'images/2.jpg',      
+        nom : "Canard Altier",      
+        commentaires : "Ce canard a une classe internationale ! C'est d'ailleurs ainsi qu'il est célébré de par le monde"
+         },  
+        {   
+        image : 'images/3.jpg',      
+        nom : "Canard Masqué",      
+        commentaires : "Un canard peut en cacher un autre, oui ; mais un homme peut aussi cacher un canard, et un masque de canard... un homme."
+         },  
+         {   
+        image : 'images/4.jpg',      
+        nom : "Canard avec plein de couleurs",      
+        commentaires : "Voilà une race de canard originale ; vous imaginez si en plus on connaissait son nom ?"
+         },  
+         {   
+        image : 'images/5.jpg',      
+        nom : "Canard nageur marron",      
+        commentaires : "Comme quoi, même bruns, les canards sont des volatiles charmants !"
+         },  
+         {   
+        image : 'images/6.jpg',      
+        nom : "Canard bosselé sur le nez",      
+        commentaires : "D'accord c'est pas son vrai nom, mais avouez que ça lui va bien !"
+         },  
+         {   
+        image : 'images/7.jpg',      
+        nom : "BatCanardMan",      
+        commentaires : "Un canard qui fait régner la justice sur Gotham City, mais qui peut également agrémenter un bain moussant avec efficacité."
+         },  
+         {   
+        image : 'images/8.jpg',      
+        nom : "Canard Arrogant de Barbarie",      
+        commentaires : "Un canard super classe mais décidément très sûr de lui..."
+         },  
+         {   
+        image : 'images/9.jpg',      
+        nom : "Canard Acnéique",      
+        commentaires : "Mais si, je vous jure, regardez bien, c'est de l'acné sous les yeux et au-desus du bec !!"
+         },  
+         {   
+        image : 'images/10.jpg',      
+        nom : "Canard Pompon",      
+        commentaires : "Qui a dit qu'être un canard pourrait vous empêcher d'arborer une coupe de cheveux ridicule ?"
+         },  
+         {   
+        image : 'images/11.jpg',      
+        nom : "Canard Chapeauté",      
+        commentaires : "Un canard qui prend ses plumes pour un chapeau de pluie."
+         },  
+         {   
+        image : 'images/12.jpg',      
+        nom : "Canard Banane",      
+        commentaires : "Mais quel mystérieux canard que celui-ci ! Vrai canard, fausse banane ? Vraie Banane, faux Canard ? Faux Canane, vraie Banard, faux imposteur, vrai imponard ?"
+         },  
+         {   
+        image : 'images/13.jpg',      
+        nom : "Canard Membré",      
+        commentaires : "Au cas où vous ne le sauriez pas, le sexe du canard est peut-être l’évènement (dans son évolution) singulièrement horrible dans le règne animal, il a évolué pour combler les labyrinthes du vagina dentata de la femelle (Vidéo 1), à d’explosives érections, sans évoquer le badinage occasionnel avec la nécrophilie."
+         },  
+        
+        ]
+} 
+// Fin des hostilités. Passons au vif du sujet !
+function showCanards(jsonObj) {
+  var canard = jsonObj['canard'];
+  function randomI() {
+    
+    var i = Math.round((Math.random()*13)) 
+    var myArticle = document.createElement('article');
+    var myImage = document.createElement('img');
+    var myNom = document.createElement('h3');
+    var myCommentaire = document.createElement('p');
+    
+    myNom.textContent = 'NOM : ' + canard[i].nom;
+    myCommentaire.textContent = canard[i].commentaires;
+    myImage.srcset = canard[i].image;
+    myImage.id = 'collec'
+    myArticle.appendChild(myImage);
+    myArticle.appendChild(myNom);
+    myArticle.appendChild(myCommentaire);
+    section.appendChild(myArticle);
+  }
+  randomI() ;
+}
+showCanards(genreDeCanards); // Victoire ! Qu'ils sont beaux tous ces canards...
+</script>
+
+<br>
+
+<h6>Cliquez sur le bouton pour toujours plus de fun et de volatiles amusants !</h6>
+
+
+<br>
+
+
+
+</div>
+</div>
+</div>
+</br>
+<a class="btn btn-primary btn-xl js-scroll-trigger" href="site.html">Accueil</a>
+</div> 
+
+
+
+  </div>
+</div>
+</div>
+
+<h3>&copy; 2018 Canardcalé.com</h3>
+
+
+
+</body>
+</html>
